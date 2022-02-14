@@ -6,10 +6,12 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class) // Bu notasyon Runner'in Cucumber ile calismasini  sagliyor
 @CucumberOptions(
+
+        plugin={"html:target\\cucumber-reports.html"},
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@Editor",
-        dryRun = true
+        tags = "@parametreliTest",
+        dryRun = false
 )
  // Raporlama icin runner dan calistirmak gerekir
 // Runner da calistirmak daha tcok tavsiye edilir
