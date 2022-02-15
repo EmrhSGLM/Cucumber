@@ -1,5 +1,6 @@
 Feature: US1001_amazonsearch
 
+  @paralel1
   Scenario: TC01_Amazon Search Testi
 
     Given kullanici amazon sayfasina gider
