@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="65.323">
-    <testcase classname="US1001_amazonsearch" name="TC01_Amazon Search Testi" time="48.896">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="34.361">
+    <testcase classname="US1001_amazonsearch" name="TC01_Amazon Search Testi" time="23.736">
         <system-out>
             <![CDATA[Given kullanici amazon sayfasina gider......................................passed
 And iPhone icin arama yapar.................................................passed
@@ -14,7 +14,7 @@ Then sonuclarin flower icerdigini test eder.................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="US1003 parametre ile stepdefinition olusturma" name="TC05_parametre kullanimi" time="15.703">
+    <testcase classname="US1003 parametre ile stepdefinition olusturma" name="TC05_parametre kullanimi" time="10.371">
         <system-out>
             <![CDATA[Given kullanici amazon sayfasina gider......................................passed
 And "iPhone" icin arama yapar...............................................passed

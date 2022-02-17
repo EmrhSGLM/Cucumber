@@ -7,10 +7,12 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class) // Bu notasyon Runner'in Cucumber ile calismasini  sagliyor
 @CucumberOptions(
 
-        plugin={"html:target\\cucumber-reports.html"},
+        plugin={"html:target\\cucumber-reports.html",
+                "json:target/json-reports/cucumber.json",
+                "junit:target/xml-report/cucumber.xml"},
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@parametreliTest",
+        tags = "@Dynamic",
         dryRun = false
 )
  // Raporlama icin runner dan calistirmak gerekir

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.519">
-    <testcase classname="US1014 Dinamik elemanlar" name="TC19 Dinamik elementler tiklanabilmeli" time="13.18">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.251">
+    <testcase classname="US1014 Dinamik elemanlar" name="TC19 Dinamik elementler tiklanabilmeli" time="12.935">
         <system-out>
             <![CDATA[Given kullanici "DemoQaUrl" sayfasina gider.................................passed
 Then Will enable 5 seconds butonunun enable olmasini bekler.................passed
